@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+
+
+p { 
+font-size: 16px;
+line-height: 1.5em
+}
+
+figcaption {
+	/*font-weight: normal:
+	font-size: 0.75em;
+	line-height: 1.5em;
+	font-family: Georgia, "New Times Roman", serif; */
+	font: normal/1.5em/Roboto, cursive;
+    color: red;
+    text-alight: right;
+}
+/* Class selectors */
+
+.milk-text {
+	font: bold 2.6em Roboto, cursive ;
+	color: white
+	text-shadow: 0 2px 3px #000;
+}
+
+*/ ID selector /*
+
+#logo {
+	backgroung: aqua;
+}
+
+
+#logo h1 {
+	font-family: clicker script, cursive; 
+}
+
+#logo h2 {
+	font-family: roboto, cursive
+}
+
+#details a:link, #details a:visted {
+	color: black;
+	text-decoration: none;
+
+}
+
+#details a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#details a:active {
+	color: red;
+}
